@@ -1,0 +1,849 @@
+
+	html, body {
+	font-family: Verdana, Geneva, Tahoma, sans-serif;
+		margin: 0;
+	height: 100%;
+		overflow: hidden;
+	}
+	
+	#kontainer {
+		background-image: url(/images/map-of-australia-simple-to-print-and-color-for-free.jpg);
+		position: relative;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		
+		left: 50%;
+		top: 400px;
+		width: 1200px;
+		height: 1500px;
+		transform:translate(-50%, -50%)
+	}
+
+/* BRISBANE */
+
+	#brisbaneDot {
+		transform: scale(3);
+		border-radius: 50%;
+		z-index: 15;
+		position: absolute;
+		top: 55%;
+		left: 85%;
+	}
+
+	#brisbaneTittel {
+		font-style: italic;
+		border-radius: 50%;
+		font-size: 15px;
+		z-index: 1;
+		position: absolute;
+		top: 52%;
+		left: 81%;
+	}
+
+	#brisbaneDot:hover ~ #brisbaneInfo {
+		animation: fadein 1s;
+		opacity: 100%;
+		z-index: 1000;
+	}
+
+	#brisbaneInfo {
+		background-color: white;
+		z-index: 11;
+		border: red solid 3px;
+		height: 500px;
+		width: 500px;
+		position: absolute;
+		top: 25%;
+		left: 40%;
+		opacity: 00%;
+	}
+
+
+/* Daintree National Park */
+
+	#dnpDot {
+		transform: scale(2);
+		border-radius: 50%;
+		z-index: 13;
+		position: absolute;
+		top: 34%;
+		left: 72%;
+	}
+
+	#dnpTittel {
+		font-style: italic;
+		border-radius: 50%;
+		font-size: 15px;
+		z-index: 1;
+		position: absolute;
+		top: 33%;
+		left: 75%;
+	}
+
+	#dnpDot:hover ~ #dnpInfo {
+		animation: fadein 1s;
+		opacity: 100%;
+		z-index: 100;
+	}
+
+	#dnpInfo {
+		background-color: white;
+		z-index: 13;
+		border: red solid 3px;
+		height: 500px;
+		width: 500px;
+		position: absolute;
+		top: 36%;
+		left: 75%;
+		opacity: 0%;
+	}
+
+/* Cairns*/
+
+	#cairnsDot {
+		transform: scale(2);
+		border-radius: 50%;
+		z-index: 13;
+		position: absolute;
+		top: 32%;
+		left: 72%;
+	}
+
+	#cairnsTittel {
+		font-style: italic;
+		border-radius: 50%;
+		font-size: 15px;
+		z-index: 1;
+		position: absolute;
+		top: 31%;
+		left: 75%;
+	}
+
+	#cairnsDot:hover ~ #cairnsInfo {
+		animation: fadein 1s;
+		opacity: 100%;
+		z-index: 100;
+	}
+
+	#cairnsInfo {
+		background-color: white;
+		z-index: 13;
+		border: red solid 3px;
+		height: 500px;
+		width: 500px;
+		position: absolute;
+		top: 36%;
+		left: 75%;
+		opacity: 0%;
+	}
+
+/* Kuranda */ 
+
+	#kurandaDot {
+		transform: scale(2);
+		border-radius: 50%;
+		height: 30px;
+		width: 30px;
+		z-index: 100;
+		position: absolute;
+		top: 38%;
+		left: 73%;
+	}
+
+	#kurandaTittel {
+		font-style: italic;
+		border-radius: 50%;
+		font-size: 15px;
+		z-index: 1;
+		position: absolute;
+		top: 37%;
+		left: 75%;
+	}
+
+	#kurandaDot:hover ~ #kurandaInfo {
+		animation: fadein 1s;
+		opacity: 100%;
+		z-index: 100;
+
+	}
+
+	#kurandaInfo {
+		background-color: white;
+		z-index: 10;
+		border: red solid 3px;
+		height: 500px;
+		width: 500px;
+		position: absolute;
+		top: 40%;
+		left: 78%;
+		opacity: 00%;
+	}
+
+/* Tjapukai */ 
+
+	#tjapukaiDot {
+		transform: scale(2);
+		border-radius: 50%;
+		height: 30px;
+		width: 30px;
+		z-index: 100;
+		position: absolute;
+		top: 41%;
+		left: 74%;
+	}
+
+	#tjapukaiTittel {
+		font-style: italic;
+		border-radius: 50%;
+		font-size: 15px;
+		z-index: 1;
+		position: absolute;
+		top: 40%;
+		left: 76%;
+	}
+
+	#tjapukaiDot:hover ~ #tjapukaiInfo {
+		animation: fadein 1s;
+		opacity: 100%;
+		z-index: 100;
+
+	}
+
+	#tjapukaiInfo {
+		background-color: white;
+		z-index: 10;
+		border: red solid 3px;
+		height: 500px;
+		width: 500px;
+		position: absolute;
+		top: 40%;
+		left: 78%;
+		opacity: 00%;
+	}
+
+/* Gold Coast */ 
+
+	#goldCoastDot {
+		transform: scale(2);
+		border-radius: 50%;
+		height: 30px;
+		width: 30px;
+		z-index: 100;
+		position: absolute;
+		top: 55.5%;
+		left: 88.5%;
+	}
+
+	#goldCoastTittel {
+		font-style: italic;
+		border-radius: 50%;
+		font-size: 15px;
+		z-index: 1;
+		position: absolute;
+		top: 53%;
+		left: 90%;
+	}
+
+	#goldCoastDot:hover ~ #goldCoastInfo {
+		animation: fadein 1s;
+		opacity: 100%;
+		z-index: 100;
+
+	}
+
+	#goldCoastInfo {
+		background-color: white;
+		z-index: 10;
+		border: red solid 3px;
+		height: 500px;
+		width: 500px;
+		position: absolute;
+		top: 36%;
+		left: 40%;
+		opacity: 0%;
+	}
+
+/* Canberra */ 
+
+	#canberraDot {
+		transform: scale(2);
+		border-radius: 50%;
+		z-index: 50;
+		position: absolute;
+		top: 68%;
+		left: 82%;
+	}
+
+	#canberraTittel {
+		font-style: italic;
+		border-radius: 50%;
+		font-size: 15px;
+		z-index: 1;
+		position: absolute;
+		top: 65%;
+		left: 80%;
+	}
+
+	#canberraDot:hover ~ #canberraInfo {
+		animation: fadein 1s;
+		opacity: 100%;
+		z-index: 100;
+	}
+
+	#canberraInfo {
+		background-color: white;
+		z-index: 10;
+		border: red solid 3px;
+		height: 500px;
+		width: 500px;
+		position: absolute;
+		top: 33%;
+		left: 38%;
+		opacity: 0%;
+	}
+
+/* Sapphire Coast */ 
+
+	#sapphireCoastDot {
+		transform: scale(2);
+		border-radius: 50%;
+		height: 30px;
+		width: 30px;
+		z-index: 50;
+		position: absolute;
+		top: 72.5%;
+		left: 81.8%;;
+	}
+
+	#sapphireCoastTittel {
+		font-style: italic;
+		border-radius: 50%;
+		font-size: 15px;
+		z-index: 1;
+		position: absolute;
+		top: 71%;
+		left: 85%;
+	}
+
+	#sapphireCoastDot:hover ~ #sapphireCoastInfo {
+		animation: fadein 1s;
+		opacity: 100%;
+		z-index: 100;
+	}
+
+	#sapphireCoastInfo {
+		background-color: white;
+		z-index: 10;
+		border: red solid 3px;
+		height: 500px;
+		width: 500px;
+		position: absolute;
+		top: 33%;
+		left: 38%;
+		opacity: 0%;
+	}
+
+/* Gibraltar Falls */ 
+
+	#gibraltarFallsDot {
+		transform: scale(2);
+		border-radius: 50%;
+		z-index: 50;
+		position: absolute;
+		top: 70.5%;
+		left: 78%;
+	}
+
+	#gibraltarFallsTittel {
+		font-style: italic;
+		border-radius: 50%;
+		font-size: 15px;
+		z-index: 1;
+		position: absolute;
+		top: 69.5%;
+		left: 68%;
+	}
+
+	#gibraltarFallsDot:hover ~ #gibraltarFallsInfo {
+		animation: fadein 1s;
+		opacity: 100%;
+		z-index: 100;
+	}
+
+	#gibraltarFallsInfo {
+		background-color: white;
+		z-index: 10;
+		border: red solid 3px;
+		height: 500px;
+		width: 500px;
+		position: absolute;
+		top: 33%;
+		left: 38%;
+		opacity: 0%;
+	}
+
+/* Bywong Town */ 
+
+	#bywongTownDot {
+		transform: scale(2);
+		border-radius: 50%;
+		height: 30px;
+		width: 30px;
+		z-index: 50;
+		position: absolute;
+		top: 63.5%;
+		left: 83%;
+	}
+
+	#bywongTownTittel {
+		font-style: italic;
+		border-radius: 50%;
+		font-size: 15px;
+		z-index: 1;
+		position: absolute;
+		top: 60%;
+		left: 78%;
+	}
+
+	#bywongTownDot:hover ~ #bywongTownInfo {
+		animation: fadein 1s;
+		opacity: 100%;
+		z-index: 100;
+	}
+
+	#bywongTownInfo {
+		background-color: white;
+		z-index: 10;
+		border: red solid 3px;
+		height: 500px;
+		width: 500px;
+		position: absolute;
+		top: 33%;
+		left: 38%;
+		opacity: 0%;
+	}
+
+/* Black Mountain Tower */ 
+
+	#bltDot {
+		transform: scale(2);
+		border-radius: 50%;
+		z-index: 50;
+		position: absolute;
+		top: 64.5%;
+		left: 74%;
+	}
+
+	#bltTittel {
+		font-style: italic;
+		border-radius: 50%;
+		font-size: 15px;
+		z-index: 1;
+		position: absolute;
+		top: 62%;
+		left: 65%;	
+	}
+
+	#bltDot:hover ~ #bltInfo {
+		animation: fadein 1s;
+		opacity: 100%;
+		z-index: 100;
+	}
+
+	#bltInfo {
+		background-color: white;
+		z-index: 10;
+		border: red solid 3px;
+		height: 500px;
+		width: 500px;
+		position: absolute;
+		top: 30%;
+		left: 38%;
+		opacity: 0%;
+	}
+
+
+
+
+
+/* QUEENSLAND (IVAN) */
+
+	#queensland {
+		user-select: none;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		opacity: .5;
+		font-size: 17px;
+		font-weight: bold;
+		position: absolute;
+		bottom: 53%;
+		left: 70%;
+		
+	}
+
+
+/* SOUTH AUSTRALIA (IVAN) */
+	#southAustralia {
+		user-select: none;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		opacity: .5;
+		font-size: 17px;
+		font-weight: bold;
+		position: absolute;
+		bottom: 40%;
+		left: 45%;
+	}
+
+
+/* NORTHERN TERRITORY (ANDERS) */ 
+	#northernTerritory {
+		user-select: none;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		opacity: .5;
+		font-size: 15px;
+		font-weight: bold;
+		position: absolute;
+		bottom: 60%;
+		left: 41%;
+	}
+
+/* DARWIN  */ 
+	#darwinDot {
+		transform: scale(3);
+		border-radius: 50%;
+		z-index: 100;
+		position: absolute;
+		top: 29%;
+		left: 44%;
+	}
+	
+	#darwinTittel {
+		font-style: italic;
+		border-radius: 50%;
+		font-size: 15px;
+		z-index: 1;
+		position: absolute;
+		top: 28%;
+		left: 47%;
+	}
+
+	#darwinDot:hover ~ #darwinInfo {
+		animation: fadein 1s;
+		z-index: 101;
+		opacity: 100;
+		
+
+	}
+
+	#darwinInfo {
+		background-color: white;
+		z-index: 10;
+		border: red solid 3px;
+		height: 500px;
+		width: 500px;
+		position: absolute;
+		top: 30%;
+		left: 45%;
+		opacity: 0%;
+	}
+	
+/* KAKADU NATIONAL PARK */ 
+	#kakaduDot {
+		transform: scale(3);
+		border-radius: 50%;
+		
+		z-index: 100;
+		position: absolute;
+		top: 32%;
+		left: 45%;
+	}
+
+	#kakaduTittel {
+		font-style: italic;
+		border-radius: 50%;
+		font-size: 15px;
+		z-index: 1001;
+		position: absolute;
+		top: 34%;
+		left: 38%;
+	}
+
+	#kakaduDot:hover ~ #kakaduInfo {
+		animation: fadein 1s;
+		z-index: 100;
+		opacity: 100%;
+
+	}
+
+	#kakaduInfo {
+		background-color: white;
+	
+		border: red solid 3px;
+		height: 500px;
+		width: 500px;
+		position: absolute;
+		top: 34%;
+		left: 48%;
+		opacity: 00%;
+	}
+
+/* Uluru  */ 
+	#uluruDot {
+		transform: scale(1.5);
+		border-radius: 50%;
+		height: 30px;
+		width: 30px;
+		z-index: 50;
+		position: absolute;
+		top: 51%;
+		left: 41%;
+	}
+
+	#uluruTittel {
+		font-style: italic;
+		border-radius: 50%;
+		font-size: 15px;
+		z-index: 1;
+		position: absolute;
+		top: 48%;
+		left: 40%;
+	}
+
+	#uluruDot:hover ~ #uluruInfo {
+		animation: fadein 1s;
+		opacity: 100%;
+		z-index: 1001;
+
+	}
+
+	#uluruInfo {
+		background-color: white;
+		
+		border: red solid 3px;
+		height: 500px;
+		width: 500px;
+		position: absolute;
+		top: 54%;
+		left: 44%;
+		opacity: 0%;
+	}
+	
+	
+
+
+/* TASMANIA (ANDERS) */
+	#tasmania {
+		user-select: none;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		opacity: .5;
+		font-size: 13px;
+		font-weight: bold;
+		position: absolute;
+		bottom: 16%;
+		left: 73.3%;
+	}
+
+	
+
+/* Hobart */ 
+	#hobartDot {		
+		transform: scale(2);
+		border-radius: 50%;
+		height: 15px;
+		width: 15px;
+		z-index: 10;
+		position: absolute;
+		top: 83%;
+		left: 78%;
+}
+
+	#hobartTittel {
+		font-style: italic;
+		border-radius: 50%;
+		font-size: 15px;
+		z-index: 1;
+		position: absolute;
+		top: 82%;
+		left: 80%;
+	}
+
+	#hobartDot:hover ~ #hobartInfo {
+		animation: fadein 1s;
+		z-index: 100;
+
+	}
+
+	#hobartInfo {
+		background-color: white;
+		z-index: 10;
+		border: red solid 3px;
+		height: 500px;
+		width: 500px;
+		position: absolute;
+		top: 48%;
+		left: 80%;
+		opacity: 0%;
+	}
+
+/* Mount Wellingtong (mntwell)*/
+	#mntwellDot {
+		transform: scale(1.5);
+		border-radius: 50%;
+		height: 15px;
+		width: 15px;
+		z-index: 10;
+		position: absolute;
+		top: 83%;
+		left: 76%;
+	}
+
+	#mntwellTittel {
+		font-style: italic;
+		border-radius: 50%;
+		font-size: 15px;
+		z-index: 1;
+		position: absolute;
+		top: 75%;
+		left: 80%;
+	}
+
+	#mntwellDot:hover ~ #mntwellInfo {
+		animation: fadein 1s;
+		z-index: 100;
+
+	}
+
+	#mntwellInfo {
+		background-color: white;
+		z-index: 10;
+		border: red solid 3px;
+		height: 500px;
+		width: 500px;
+		position: absolute;
+		top: 49%;
+		left: 77%;
+		opacity: 0%;
+	}
+
+	#mntwellPil {
+		position: absolute;
+		top: 76%;
+		left: 77%;
+		height: 100px;
+		width: 40px;
+	}
+
+/* Port Arthur */
+	#portartDot {
+		transform: scale(1.5);
+		border-radius: 50%;
+		height: 15px;
+		width: 15px;
+		z-index: 10;
+		position: absolute;
+		top: 84%;
+		left: 76%;
+	}
+
+	#portartTittel {
+		font-style: italic;
+		border-radius: 50%;
+		font-size: 15px;
+		z-index: 1;
+		position: absolute;
+		top: 80%;
+		left: 60%;
+	}
+
+	#portartDot:hover ~ #portartInfo {
+		animation: fadein 1s;
+		z-index: 100;
+
+	}
+
+	#portartInfo {
+		background-color: white;
+		z-index: 10;
+		border: red solid 3px;
+		height: 500px;
+		width: 500px;
+		position: absolute;
+		top: 49%;
+		left: 77%;
+		opacity: 0%;
+	}
+
+	#portartPil {
+		position: absolute;
+		top: 82%;
+		left: 67%;
+		height: 40px;
+		width: 100px;
+	}
+
+	@keyframes fadein{
+		from {
+			opacity: 0%;
+		}
+		to {
+			opacity: 100%;
+		}
+	}
+
+/* VICTORIA (LEONARD) */
+	#victoria {
+		user-select: none;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		opacity: .5;
+		font-size: 17px;
+		font-weight: bold;
+		position: absolute;
+		bottom: 26%;
+		left: 65%;
+}
+
+/* WESTERN AUSTRALIA (ABDI) */
+	#westernAustralia {
+		user-select: none;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		opacity: .5;
+		font-size: 17px;
+		font-weight: bold;
+		position: absolute;
+		bottom: 43%;
+		left: 18%;
+		z-index: 100;
+	}
+/* Western Australia Abdi Hover effect*/
+	#abdiHover {
+		opacity: 0%;
+	}
+	
+
+
+
+
+
+
+
+
+
+
+
+/* NEW SOUTH WALES (YOHANNES) */
+	#nsw {
+		user-select: none;
+		font-family: Verdana, Geneva, Tahoma, sans-serif;
+		opacity: .5;
+		font-size: 17px;
+		font-weight: bold;
+		position: absolute;
+		bottom: 30%;
+		left: 70%;
+	}
+
+
+	
+
+
+
+	
